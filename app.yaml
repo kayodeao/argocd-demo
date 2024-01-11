@@ -9,7 +9,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/f-keys/argocd-demo.git
+    repoURL: https://github.com/kayodeao/argocd-demo.git
     targetRevision: HEAD
     path: my-app
   destination:
