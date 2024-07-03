@@ -35,6 +35,7 @@ Here are the steps to install ArgoCD and retrieve the admin password:
 4. **Retrieve Admin Password**:
     ```bash
    kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
+    ```
 
 These commands will install ArgoCD into the specified namespace, set up the service as a LoadBalancer, and retrieve the admin password for you to access the ArgoCD UI.
-   ```
+  
